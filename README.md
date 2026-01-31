@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmeanpn@deno/mod.js';
+import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmeanpn@v0.1.0-deno/mod.js';
 ```
 
 #### nanmeanpn( x )
@@ -91,7 +91,7 @@ The function has the following parameters:
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmeanpn@deno/mod.js';
+import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmeanpn@v0.1.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
